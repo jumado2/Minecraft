@@ -1,11 +1,9 @@
-# Linux Starter Kit
+# Windows PC Starter Kit
 
 Martin O'Hanlon
 
 From the book: "Adventures in Minecraft" written by David Whale and Martin O'Hanlon, Wiley, 2017
  [http://eu.wiley.com/WileyCDA/WileyTitle/productCd-1119439582.html](http://eu.wiley.com/WileyCDA/WileyTitle/productCd-1119439582.html)
-
-Important note - Linux is not officially supported within Adventures in Minecraft and this Starter Kit is provided as is.
 
 ## Description
 
@@ -23,7 +21,7 @@ The structure of the StarterKit is as follows:
     * microbit : python library which contains the library to control the microbit
     * findPort.py : a python program used in adventure 5 to find the com port a connected arduino uses
     * bitio.hex : the bitio microbit program which should be copied to the BBC micro:bit
-  * StartServer.sh : a bash script used to start the minecraft server
+  * StartServer.bat : a batch file used to start the minecraft server
 
 ## StarterKit Creation Guide
 
@@ -53,19 +51,21 @@ java -Xms1024M -Xmx1024M -jar craftbukkit.jar
 PAUSE
 ```
 
-4. Save the file to the `Server` folder as `start.sh`.  The start.sh file is a bash program which will startup the Minecraft server when it is run.
+4. Save the file to the `Server` folder as `start.bat`.  The start.bat file is a windows batch program which will startup the Minecraft server when it is run.
 
-5. Double-click the `start.sh` file to run it and startup the server.
+5. Run the `start.bat` file and startup the server.
 
 6. Wait for the message `You need to agree to the EULA in order to run the server.`. Edit eula.txt so eula=true.
 
-7. Run the `start.sh` file and startup the Minecraft server.
+7. Double-click the `start.bat` file to run it and startup the Minecraft server.
 
 When you first start the Minecraft server it will take a little time to run as it sets up the server and creates a new Minecraft world, when its finished you will see the message `Done` in the command window.
 
-When you want to start your Minecraft server in the future you can run the `start.sh` file.
+When you want to start your Minecraft server in the future you can run the `start.bat` file.
 
 To stop the server, enter the word `stop` into the command window and press `Enter`.
+
+Fyi - Because of issues with java not being consistently being available to run from the command line, Launch4J (launch4j.sourceforge.net) was used to create an exe called start.exe which launches bukkit.
 
 ### Configure Bukkit
 
@@ -81,26 +81,26 @@ To stop the server, enter the word `stop` into the command window and press `Ent
    * `allow-flight=false` to `allow-flight=true` so you can fly in Minecraft.
    * `online-mode=true` to `online-mode=false` so you don t need to be connected to the internet to use Bukkit
 
-### Create StartServer.sh
+### Create StartServer.bat
 
 Open a text editor and add the following text:
 
 ```
-#!/bin/bash
-echo "Adventures In Minecraft"
-echo "Minecraft Server Version is #.#.#"
-echo "  Note - make sure Minecraft is using #.#.#"
-echo "By continuing you are indicating your agreement to our EULA https://account.mojang.com/documents/minecraft_eula)."
-echo "Press any key to continue"
-read -n 1 -s
-cd "$( dirname "$0" )"
+ECHO OFF
+ECHO "Adventures In Minecraft"
+ECHO "Minecraft Server Version is #.#.#"
+ECHO "  Note - make sure Minecraft is using version #.#.#"
+ECHO "By continuing you are indicating your agreement to our EULA https://account.mojang.com/documents/minecraft_eula)."
+pause
 cd Server
-./start.sh
+start.bat
+pause
+ECHO ON
 ```
 
 Replace #.#.# with the version number of Minecraft server you created.
 
-Save the file as StartServer.sh to the AdventuresInMinecraft folder.
+Save the file as StartServer.bat to the AdventuresInMinecraft folder.
 
 ### Install RaspberryJuice
  ----------------------
@@ -108,7 +108,7 @@ RaspberryJuice is a plugin for Bukkit which will allow you to write programs whi
 
 1. Goto https://www.spigotmc.org/resources/raspberryjuice.22724/ 
 
-2. download the latest version of the raspberry juice plugin, download the raspberryjuice-#.#.jar file.
+2. download the latest version of the raspberry juice plugin, download the raspberryjuice-#.#.jar file.  
 
 3. Copy the raspberryjuice-#-#.jar plugin to the plugins folder in the Bukkit folder.
 
@@ -131,7 +131,6 @@ git clone https://github.com/martinohanlon/minecraft-stuff
 ```
 
 4. Copy "minecraftstuff\minecraftstuff.py" to the mcpi folder.
-
 
 5. Download anyio from github [https://github.com/AdventuresInMinecraft/anyio](github.com/AdventuresInMinecraft/anyio)
 
