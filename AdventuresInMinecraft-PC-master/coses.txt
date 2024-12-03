@@ -1,0 +1,3 @@
+Versió 1.12
+Tecla T per obrir xat
+Si volem agafar lo de la TNT mirem block.STONE.id, enlloc de stone fiquem l'id de la TNT
