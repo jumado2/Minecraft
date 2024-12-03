@@ -1,3 +1,7 @@
 Versió 1.12
 Tecla T per obrir xat
 Si volem agafar lo de la TNT mirem block.STONE.id, enlloc de stone fiquem l'id de la TNT
+
+Per executar el minecraft seleciones multijugador, vas a start server i cliques, li dones a qualsevol teclar. Li dones a añadir servidor i fiques localhost
+
+Obrir i tancar inventari tecla E
