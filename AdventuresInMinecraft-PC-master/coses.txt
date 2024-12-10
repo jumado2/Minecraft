@@ -2,6 +2,22 @@ Versió 1.12
 Tecla T per obrir xat
 Si volem agafar lo de la TNT mirem block.STONE.id, enlloc de stone fiquem l'id de la TNT
 
+Per a elevar el persontage aka volar dos clics al espai
+
 Per executar el minecraft seleciones multijugador, vas a start server i cliques, li dones a qualsevol teclar. Li dones a añadir servidor i fiques localhost
 
 Obrir i tancar inventari tecla E
+
+Per mostrar canvis es fa run i es mira
+
+
+Mira si se pot gestionar per a que s'activi quan se diu el següent
+if startwith(insultbot)
+
+Posible opcio de bot d'insults
+ 
+Llavors es pot mira de crear un observer, decorator,... el tema esta en si jo necessito intercavia components, entre per exemple estrategies,
+Si necessitem comunicacio entre nn components fiquem un observer que ens vaigi dient
+Amb el decorator tenim un component basic i en un moment decidim ficar-li x funcionalitat extra
+On podem aplicar reflectiveprogramming fem una introespreccio per a obtener els insults que tenim dintre de la clase
+Si es construeixem + de 10 blocs doncs guanyes un logro que podría ser afegir un insult extra o algo aixi, o banejaar un insult. Aixo amb tots els blocs.
