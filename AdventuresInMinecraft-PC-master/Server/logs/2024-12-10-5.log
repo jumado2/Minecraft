@@ -1,0 +1,207 @@
+[17:44:52] [Server thread/INFO]: Starting minecraft server version 1.12
+[17:44:52] [Server thread/INFO]: Loading properties
+[17:44:52] [Server thread/INFO]: Default game type: CREATIVE
+[17:44:52] [Server thread/INFO]: Generating keypair
+[17:44:52] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:44:52] [Server thread/INFO]: Using default channel type
+[17:44:52] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-ed8c725 (MC: 1.12) (Implementing API version 1.12-R0.1-SNAPSHOT)
+[17:44:52] [Server thread/INFO]: [RaspberryJuice] Loading RaspberryJuice v1.10
+[17:44:52] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:44:52] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:44:52] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:44:52] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:44:52] [Server thread/INFO]: Preparing level "world"
+[17:44:53] [Server thread/INFO]: Preparing start region for level 0 (Seed: 3272691789889605005)
+[17:44:54] [Server thread/INFO]: Preparing start region for level 1 (Seed: 3272691789889605005)
+[17:44:54] [Server thread/INFO]: Preparing start region for level 2 (Seed: 3272691789889605005)
+[17:44:54] [Server thread/INFO]: [RaspberryJuice] Enabling RaspberryJuice v1.10
+[17:44:54] [Server thread/INFO]: [RaspberryJuice] Using port 4711
+[17:44:54] [Server thread/INFO]: [RaspberryJuice] Using ABSOLUTE locations
+[17:44:54] [Server thread/INFO]: [RaspberryJuice] Using BOTH clicks for hits
+[17:44:54] [Server thread/INFO]: [RaspberryJuice] ThreadListener Started
+[17:44:54] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:44:54] [Server thread/INFO]: Done (1,685s)! For help, type "help" or "?"
+[17:45:18] [Server thread/INFO]: Judith[/127.0.0.1:65050] logged in with entity id 19 at ([world]358.523309762797, 67.0, 245.90184681783177)
+[17:45:25] [Netty Server IO #2/INFO]: <Judith> vf[m
+[17:45:30] [Netty Server IO #2/INFO]: <Judith> kfd[m
+[17:45:33] [Netty Server IO #2/INFO]: <Judith> klfe[m
+[17:45:35] [Netty Server IO #2/INFO]: <Judith> ldekdlek[m
+[17:45:41] [Thread-7/INFO]: [RaspberryJuice] Starting input thread
+[17:45:41] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:65052.
+[17:45:41] [Thread-8/INFO]: [RaspberryJuice] Starting output thread!
+[17:45:41] [Server thread/INFO]: Hello Minecraft World[m
+[17:45:42] [Server thread/INFO]: <InsultBot>jugador del lol[m
+[17:45:42] [Server thread/INFO]: <InsultBot>Tontito[m
+[17:45:42] [Server thread/INFO]: <InsultBot>Tontito[m
+[17:45:42] [Server thread/INFO]: <InsultBot>Avui no ‚s el teu dia, oi?[m
+[17:45:42] [Server thread/INFO]: <InsultBot>Avui no ‚s el teu dia, oi?[m
+[17:45:42] [Server thread/INFO]: <InsultBot>empanat[m
+[17:45:42] [Server thread/INFO]: <InsultBot>Avui no ‚s el teu dia, oi?[m
+[17:45:42] [Server thread/INFO]: <InsultBot>jugador del lol[m
+[17:45:42] [Server thread/INFO]: <InsultBot>Tontito[m
+[17:45:42] [Server thread/INFO]: <InsultBot>jugador del lol[m
+[17:45:43] [Server thread/INFO]: <InsultBot>jugador del lol[m
+[17:45:43] [Server thread/INFO]: <InsultBot>empanat[m
+[17:45:43] [Server thread/INFO]: <InsultBot>empanat[m
+[17:45:43] [Server thread/INFO]: <InsultBot>empanat[m
+[17:45:43] [Server thread/INFO]: <InsultBot>Avui no ‚s el teu dia, oi?[m
+[17:45:43] [Server thread/INFO]: <InsultBot>Avui no ‚s el teu dia, oi?[m
+[17:45:43] [Server thread/INFO]: <InsultBot>jugador del lol[m
+[17:45:43] [Server thread/INFO]: <InsultBot>Tontito[m
+[17:45:43] [Server thread/INFO]: <InsultBot>empanat[m
+[17:45:43] [Server thread/INFO]: <InsultBot>Tontito[m
+[17:45:44] [Server thread/INFO]: <InsultBot>Avui no ‚s el teu dia, oi?[m
+[17:45:44] [Server thread/INFO]: <InsultBot>Avui no ‚s el teu dia, oi?[m
+[17:45:44] [Server thread/INFO]: <InsultBot>Avui no ‚s el teu dia, oi?[m
+[17:45:44] [Server thread/INFO]: <InsultBot>jugador del lol[m
+[17:45:44] [Server thread/INFO]: <InsultBot>empanat[m
+[17:45:44] [Server thread/INFO]: <InsultBot>Burro[m
+[17:45:44] [Server thread/INFO]: <InsultBot>Avui no ‚s el teu dia, oi?[m
+[17:45:44] [Server thread/INFO]: <InsultBot>jugador del lol[m
+[17:45:44] [Server thread/INFO]: <InsultBot>empanat[m
+[17:45:44] [Server thread/INFO]: <InsultBot>Avui no ‚s el teu dia, oi?[m
+[17:45:45] [Server thread/INFO]: <InsultBot>jugador del lol[m
+[17:45:45] [Server thread/INFO]: <InsultBot>Burro[m
+[17:45:45] [Server thread/INFO]: <InsultBot>Burro[m
+[17:45:45] [Server thread/INFO]: <InsultBot>empanat[m
+[17:45:45] [Server thread/INFO]: <InsultBot>Tontito[m
+[17:45:45] [Server thread/INFO]: <InsultBot>Tontito[m
+[17:45:45] [Server thread/INFO]: <InsultBot>empanat[m
+[17:45:45] [Server thread/INFO]: <InsultBot>Avui no ‚s el teu dia, oi?[m
+[17:45:45] [Server thread/INFO]: <InsultBot>Burro[m
+[17:45:45] [Server thread/INFO]: <InsultBot>Tontito[m
+[17:45:46] [Server thread/INFO]: <InsultBot>Avui no ‚s el teu dia, oi?[m
+[17:45:46] [Server thread/INFO]: <InsultBot>empanat[m
+[17:45:46] [Server thread/INFO]: <InsultBot>Tontito[m
+[17:45:46] [Server thread/INFO]: <InsultBot>Burro[m
+[17:45:46] [Server thread/INFO]: <InsultBot>empanat[m
+[17:45:46] [Server thread/INFO]: <InsultBot>Avui no ‚s el teu dia, oi?[m
+[17:45:46] [Server thread/INFO]: <InsultBot>Avui no ‚s el teu dia, oi?[m
+[17:45:46] [Server thread/INFO]: <InsultBot>empanat[m
+[17:45:46] [Server thread/INFO]: <InsultBot>jugador del lol[m
+[17:45:46] [Server thread/INFO]: <InsultBot>empanat[m
+[17:45:47] [Server thread/INFO]: <InsultBot>jugador del lol[m
+[17:45:47] [Server thread/INFO]: <InsultBot>Avui no ‚s el teu dia, oi?[m
+[17:45:47] [Server thread/INFO]: <InsultBot>Tontito[m
+[17:45:47] [Server thread/INFO]: <InsultBot>Tontito[m
+[17:45:47] [Server thread/INFO]: <InsultBot>Avui no ‚s el teu dia, oi?[m
+[17:45:47] [Server thread/INFO]: <InsultBot>Burro[m
+[17:45:47] [Server thread/INFO]: <InsultBot>Burro[m
+[17:45:47] [Server thread/INFO]: <InsultBot>Avui no ‚s el teu dia, oi?[m
+[17:45:47] [Server thread/INFO]: <InsultBot>jugador del lol[m
+[17:45:47] [Server thread/INFO]: <InsultBot>jugador del lol[m
+[17:45:48] [Server thread/INFO]: <InsultBot>Avui no ‚s el teu dia, oi?[m
+[17:45:48] [Server thread/INFO]: <InsultBot>jugador del lol[m
+[17:45:48] [Server thread/INFO]: <InsultBot>jugador del lol[m
+[17:45:48] [Server thread/INFO]: <InsultBot>Tontito[m
+[17:45:48] [Server thread/INFO]: <InsultBot>jugador del lol[m
+[17:45:48] [Server thread/INFO]: <InsultBot>Tontito[m
+[17:45:48] [Server thread/INFO]: <InsultBot>empanat[m
+[17:45:48] [Server thread/INFO]: <InsultBot>empanat[m
+[17:45:48] [Server thread/INFO]: <InsultBot>Tontito[m
+[17:45:48] [Server thread/INFO]: <InsultBot>Tontito[m
+[17:45:49] [Server thread/INFO]: <InsultBot>Avui no ‚s el teu dia, oi?[m
+[17:45:49] [Server thread/INFO]: <InsultBot>empanat[m
+[17:45:49] [Server thread/INFO]: <InsultBot>jugador del lol[m
+[17:45:49] [Server thread/INFO]: <InsultBot>jugador del lol[m
+[17:45:49] [Server thread/INFO]: <InsultBot>jugador del lol[m
+[17:45:49] [Server thread/INFO]: <InsultBot>empanat[m
+[17:45:49] [Server thread/INFO]: <InsultBot>Avui no ‚s el teu dia, oi?[m
+[17:45:49] [Server thread/INFO]: <InsultBot>Burro[m
+[17:45:49] [Server thread/INFO]: <InsultBot>empanat[m
+[17:45:49] [Server thread/INFO]: <InsultBot>jugador del lol[m
+[17:45:50] [Server thread/INFO]: <InsultBot>Avui no ‚s el teu dia, oi?[m
+[17:45:50] [Server thread/INFO]: <InsultBot>jugador del lol[m
+[17:45:50] [Server thread/INFO]: <InsultBot>empanat[m
+[17:45:50] [Server thread/INFO]: <InsultBot>empanat[m
+[17:45:50] [Server thread/INFO]: <InsultBot>empanat[m
+[17:45:50] [Server thread/INFO]: <InsultBot>Tontito[m
+[17:45:50] [Server thread/INFO]: <InsultBot>Tontito[m
+[17:45:50] [Server thread/INFO]: <InsultBot>empanat[m
+[17:45:50] [Server thread/INFO]: <InsultBot>Tontito[m
+[17:45:50] [Server thread/INFO]: <InsultBot>Tontito[m
+[17:45:51] [Server thread/INFO]: <InsultBot>jugador del lol[m
+[17:45:51] [Server thread/INFO]: <InsultBot>empanat[m
+[17:45:51] [Server thread/INFO]: <InsultBot>empanat[m
+[17:45:51] [Server thread/INFO]: <InsultBot>Tontito[m
+[17:45:51] [Server thread/INFO]: <InsultBot>Burro[m
+[17:45:51] [Server thread/INFO]: <InsultBot>Burro[m
+[17:45:51] [Server thread/INFO]: <InsultBot>Burro[m
+[17:45:51] [Server thread/INFO]: <InsultBot>Tontito[m
+[17:45:51] [Server thread/INFO]: <InsultBot>empanat[m
+[17:45:51] [Server thread/INFO]: <InsultBot>Tontito[m
+[17:45:52] [Server thread/INFO]: <InsultBot>Tontito[m
+[17:45:52] [Server thread/INFO]: <InsultBot>Avui no ‚s el teu dia, oi?[m
+[17:45:52] [Server thread/INFO]: <InsultBot>empanat[m
+[17:45:52] [Server thread/INFO]: <InsultBot>Avui no ‚s el teu dia, oi?[m
+[17:45:52] [Server thread/INFO]: <InsultBot>empanat[m
+[17:45:52] [Server thread/INFO]: <InsultBot>Avui no ‚s el teu dia, oi?[m
+[17:45:52] [Server thread/INFO]: <InsultBot>Avui no ‚s el teu dia, oi?[m
+[17:45:52] [Server thread/INFO]: <InsultBot>empanat[m
+[17:45:52] [Server thread/INFO]: <InsultBot>Avui no ‚s el teu dia, oi?[m
+[17:45:52] [Server thread/INFO]: <InsultBot>Avui no ‚s el teu dia, oi?[m
+[17:45:53] [Server thread/INFO]: <InsultBot>Burro[m
+[17:45:53] [Server thread/INFO]: <InsultBot>Burro[m
+[17:45:53] [Server thread/INFO]: <InsultBot>Burro[m
+[17:45:53] [Server thread/INFO]: <InsultBot>empanat[m
+[17:45:53] [Server thread/INFO]: <InsultBot>empanat[m
+[17:45:53] [Server thread/INFO]: <InsultBot>Avui no ‚s el teu dia, oi?[m
+[17:45:53] [Server thread/INFO]: <InsultBot>Avui no ‚s el teu dia, oi?[m
+[17:45:53] [Server thread/INFO]: <InsultBot>Avui no ‚s el teu dia, oi?[m
+[17:45:53] [Server thread/INFO]: <InsultBot>Tontito[m
+[17:45:53] [Server thread/INFO]: <InsultBot>jugador del lol[m
+[17:45:54] [Server thread/INFO]: <InsultBot>empanat[m
+[17:45:54] [Server thread/INFO]: <InsultBot>empanat[m
+[17:45:54] [Server thread/INFO]: <InsultBot>Avui no ‚s el teu dia, oi?[m
+[17:45:54] [Server thread/INFO]: <InsultBot>Avui no ‚s el teu dia, oi?[m
+[17:45:54] [Server thread/INFO]: <InsultBot>jugador del lol[m
+[17:45:54] [Server thread/INFO]: <InsultBot>Tontito[m
+[17:45:54] [Server thread/INFO]: <InsultBot>Burro[m
+[17:45:54] [Server thread/INFO]: <InsultBot>Avui no ‚s el teu dia, oi?[m
+[17:45:54] [Server thread/INFO]: <InsultBot>jugador del lol[m
+[17:45:54] [Server thread/INFO]: <InsultBot>Avui no ‚s el teu dia, oi?[m
+[17:45:55] [Server thread/INFO]: <InsultBot>empanat[m
+[17:45:55] [Server thread/INFO]: <InsultBot>Tontito[m
+[17:45:55] [Server thread/INFO]: <InsultBot>Burro[m
+[17:45:55] [Server thread/INFO]: <InsultBot>Tontito[m
+[17:45:55] [Server thread/INFO]: <InsultBot>Avui no ‚s el teu dia, oi?[m
+[17:45:55] [Server thread/INFO]: <InsultBot>Avui no ‚s el teu dia, oi?[m
+[17:45:55] [Server thread/INFO]: <InsultBot>empanat[m
+[17:45:55] [Server thread/INFO]: <InsultBot>jugador del lol[m
+[17:45:55] [Server thread/INFO]: <InsultBot>Avui no ‚s el teu dia, oi?[m
+[17:45:55] [Server thread/INFO]: <InsultBot>Burro[m
+[17:45:56] [Server thread/INFO]: <InsultBot>Avui no ‚s el teu dia, oi?[m
+[17:45:56] [Server thread/INFO]: <InsultBot>Tontito[m
+[17:45:56] [Server thread/INFO]: <InsultBot>jugador del lol[m
+[17:45:56] [Server thread/INFO]: <InsultBot>empanat[m
+[17:45:56] [Server thread/INFO]: <InsultBot>empanat[m
+[17:45:56] [Server thread/INFO]: <InsultBot>Tontito[m
+[17:45:56] [Server thread/INFO]: <InsultBot>empanat[m
+[17:45:56] [Server thread/INFO]: <InsultBot>Avui no ‚s el teu dia, oi?[m
+[17:45:56] [Server thread/INFO]: <InsultBot>empanat[m
+[17:45:56] [Server thread/INFO]: <InsultBot>Avui no ‚s el teu dia, oi?[m
+[17:45:57] [Server thread/INFO]: <InsultBot>Burro[m
+[17:45:57] [Server thread/INFO]: <InsultBot>Tontito[m
+[17:45:57] [Server thread/INFO]: <InsultBot>Avui no ‚s el teu dia, oi?[m
+[17:45:57] [Server thread/INFO]: <InsultBot>Tontito[m
+[17:45:57] [Server thread/INFO]: <InsultBot>jugador del lol[m
+[17:45:57] [Server thread/INFO]: <InsultBot>Tontito[m
+[17:45:57] [Server thread/INFO]: <InsultBot>empanat[m
+[17:45:57] [Server thread/INFO]: Judith lost connection: Internal Exception: java.io.IOException: Se ha forzado la interrupción de una conexión existente por el host remoto
+[17:45:57] [Server thread/INFO]: Judith left the game
+[17:45:57] [Server thread/WARN]: [RaspberryJuice] Error occured handling command
+[17:45:57] [Server thread/WARN]: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+[17:45:57] [Server thread/WARN]: 	at java.lang.AbstractStringBuilder.deleteCharAt(Unknown Source)
+[17:45:57] [Server thread/WARN]: 	at java.lang.StringBuilder.deleteCharAt(Unknown Source)
+[17:45:57] [Server thread/WARN]: 	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleCommand(RemoteSession.java:181)
+[17:45:57] [Server thread/WARN]: 	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:133)
+[17:45:57] [Server thread/WARN]: 	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113)
+[17:45:57] [Server thread/WARN]: 	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197)
+[17:45:57] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53)
+[17:45:57] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352)
+[17:45:57] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689)
+[17:45:57] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366)
+[17:45:57] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650)
+[17:45:57] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554)
+[17:45:57] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[17:45:57] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:65052.
