@@ -21,3 +21,8 @@ Si necessitem comunicacio entre nn components fiquem un observer que ens vaigi d
 Amb el decorator tenim un component basic i en un moment decidim ficar-li x funcionalitat extra
 On podem aplicar reflectiveprogramming fem una introespreccio per a obtener els insults que tenim dintre de la clase
 Si es construeixem + de 10 blocs doncs guanyes un logro que podría ser afegir un insult extra o algo aixi, o banejaar un insult. Aixo amb tots els blocs.
+Si han de completar una condicio fiquem predicate
+
+
+
+Estaria guay al main ficar q es puguin utilizar tots els bots a la vegada

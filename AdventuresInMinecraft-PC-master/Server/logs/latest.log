@@ -790,3 +790,74 @@
 [18:10:00] [Server thread/INFO]: <InsultBot> Empanat[m
 [18:10:01] [Netty Server IO #12/INFO]: <Judith> rk[m
 [18:10:02] [Server thread/INFO]: <InsultBot> Tontito[m
+[18:18:12] [Thread-15/INFO]: [RaspberryJuice] Connection reset
+[18:18:12] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:49701.
+[18:18:14] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:60509.
+[18:18:14] [Thread-17/INFO]: [RaspberryJuice] Starting input thread
+[18:18:14] [Thread-18/INFO]: [RaspberryJuice] Starting output thread!
+[18:18:14] [Server thread/INFO]: TNTBot est… actiu! Escriviu 'tnt' al xat per activar-me.[m
+[18:18:21] [Netty Server IO #12/INFO]: <Judith> tnt[m
+[18:18:21] [Server thread/INFO]: Colúlocant TNT... prepareu-vos per l'explosi¢![m
+[18:18:51] [Netty Server IO #12/INFO]: <Judith> tnt[m
+[18:18:51] [Server thread/INFO]: Colúlocant TNT... prepareu-vos per l'explosi¢![m
+[18:21:50] [Netty Server IO #12/INFO]: <Judith> tnt[m
+[18:21:50] [Server thread/INFO]: Colúlocant TNT... prepareu-vos per l'explosi¢![m
+[18:21:59] [Netty Server IO #12/INFO]: <Judith> tnt[m
+[18:21:59] [Server thread/INFO]: Colúlocant TNT... prepareu-vos per l'explosi¢![m
+[18:24:15] [Thread-17/INFO]: [RaspberryJuice] Connection reset
+[18:24:15] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:60509.
+[18:24:21] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:60574.
+[18:24:21] [Thread-19/INFO]: [RaspberryJuice] Starting input thread
+[18:24:21] [Thread-20/INFO]: [RaspberryJuice] Starting output thread!
+[18:24:21] [Server thread/INFO]: TNTBot est… actiu! Escriviu 'tnt' al xat per activar-me.[m
+[18:24:25] [Netty Server IO #12/INFO]: <Judith> tnt[m
+[18:24:26] [Server thread/INFO]: Colúlocant TNT...[m
+[18:24:28] [Server thread/INFO]: BOOM! Prepareu-vos per l'explosi¢.[m
+[18:30:23] [Thread-19/INFO]: [RaspberryJuice] Connection reset
+[18:30:23] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:60574.
+[18:30:29] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:60616.
+[18:30:29] [Thread-21/INFO]: [RaspberryJuice] Starting input thread
+[18:30:29] [Thread-22/INFO]: [RaspberryJuice] Starting output thread!
+[18:30:29] [Server thread/INFO]: TNTBot est… actiu! Escriviu 'tnt' al xat per activar-me.[m
+[18:30:33] [Netty Server IO #12/INFO]: <Judith> tnt[m
+[18:30:33] [Server thread/INFO]: Colúlocant TNT...[m
+[18:30:36] [Server thread/INFO]: BOOM![m
+[18:30:54] [Netty Server IO #12/INFO]: <Judith> tnt[m
+[18:30:55] [Server thread/INFO]: Colúlocant TNT...[m
+[18:30:57] [Server thread/INFO]: BOOM![m
+[18:31:13] [Netty Server IO #12/INFO]: <Judith> tnt[m
+[18:31:13] [Server thread/INFO]: Colúlocant TNT...[m
+[18:31:15] [Server thread/INFO]: BOOM![m
+[18:33:35] [Thread-21/INFO]: [RaspberryJuice] Connection reset
+[18:33:35] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:60616.
+[18:33:37] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:60647.
+[18:33:37] [Thread-23/INFO]: [RaspberryJuice] Starting input thread
+[18:33:37] [Thread-24/INFO]: [RaspberryJuice] Starting output thread!
+[18:33:37] [Server thread/INFO]: TNTBot est… actiu! Escriviu 'tnt' al xat per activar-me.[m
+[18:33:41] [Netty Server IO #12/INFO]: <Judith> tnt[m
+[18:33:41] [Server thread/INFO]: Colúlocant TNT...[m
+[18:33:43] [Server thread/INFO]: BOOM![m
+[18:48:33] [Thread-23/INFO]: [RaspberryJuice] Connection reset
+[18:48:33] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:60647.
+[18:48:49] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:60863.
+[18:48:49] [Thread-25/INFO]: [RaspberryJuice] Starting input thread
+[18:48:49] [Thread-26/INFO]: [RaspberryJuice] Starting output thread!
+[18:48:49] [Server thread/INFO]: Hello Minecraft World[m
+[18:48:49] [Server thread/INFO]: OracleBot est… actiu! Pregunteu-me coses sobre Minecraft.[m
+[18:48:54] [Netty Server IO #12/INFO]: <Judith> Com es fa una taula de crafteig?[m
+[18:48:54] [Server thread/INFO]: OracleBot: Necessites 4 blocs de fusta processada. Colúloca'ls en un quadrat 2x2 al teu inventari.[m
+[18:51:37] [Thread-25/INFO]: [RaspberryJuice] Connection reset
+[18:51:37] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:60863.
+[18:51:40] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:60891.
+[18:51:40] [Thread-27/INFO]: [RaspberryJuice] Starting input thread
+[18:51:40] [Thread-28/INFO]: [RaspberryJuice] Starting output thread!
+[18:51:40] [Server thread/INFO]: Hello Minecraft World[m
+[18:51:40] [Server thread/INFO]: OracleBot est… actiu! Pregunteu-me coses sobre Minecraft.[m
+[18:51:43] [Netty Server IO #12/INFO]: <Judith> Com es fa una taula de crafteig?[m
+[18:51:43] [Server thread/INFO]: OracleBot: {response}[m
+[19:09:11] [Netty Server IO #12/INFO]: <Judith> TNT[m
+[19:09:12] [Server thread/INFO]: OracleBot: No s‚ la resposta a aquesta pregunta. Prova una altra![m
+[19:09:18] [Netty Server IO #12/INFO]: <Judith> tnt[m
+[19:09:18] [Server thread/INFO]: OracleBot: No s‚ la resposta a aquesta pregunta. Prova una altra![m
+[19:09:28] [Server thread/INFO]: Judith lost connection: Internal Exception: java.io.IOException: Se ha forzado la interrupción de una conexión existente por el host remoto
+[19:09:28] [Server thread/INFO]: Judith left the game
