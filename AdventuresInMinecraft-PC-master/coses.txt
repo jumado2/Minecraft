@@ -26,3 +26,5 @@ Si han de completar una condicio fiquem predicate
 
 
 Estaria guay al main ficar q es puguin utilizar tots els bots a la vegada
+
+Per a fer que hi hagi varis bots alhora s'han d'utilitzar threads
