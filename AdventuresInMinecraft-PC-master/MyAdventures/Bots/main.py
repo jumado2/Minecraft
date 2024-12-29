@@ -10,6 +10,10 @@ def main():
     insult_thread = threading.Thread(target=InsultBot.run, name="InsultBot")
     tnt_thread = threading.Thread(target=TNTBot.run, name="TNTBot")
     
+    #setattr(OracleBot, "mode", 1)       #Reflectiu
+    #setattr(OracleBot, "mode", 2)       #Es pot fer d'aquesta manera, de moment esta fet que ho canvii el InsultBot, ja que tambe son "insults"
+    
+    
     # Arrencar el fil
     oracle_thread.start()
     insult_thread.start()

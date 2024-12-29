@@ -1,6 +1,7 @@
 import sys
 import os
 import time
+import OracleBot
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
  # Import necessary modules
@@ -30,7 +31,9 @@ while True:
 
     for message in chat_messages:
         # Només processar missatges nous
-        if message.message not in previous_messages:
+        if message.message == "oraclebot mode 2": setattr(OracleBot, "mode", 2)
+        elif message.message == "oraclebot mode 1": setattr(OracleBot, "mode", 1)
+        elif message.message not in previous_messages:
             insult = random.choice(insults)  # Escollir un insult aleatori
             mc.postToChat(f"<InsultBot> {insult}")  # Enviar l'insult al xat
             previous_messages.add(message.message)  # Afegir el missatge al conjunt gestionat
