@@ -9,17 +9,24 @@ import mcpi.block as block
 import random
 
 mode = 0
+preestablertes = {"Com es fa una taula de crafteig?", "Com domesticar un llop?",
+        "Com es fabrica una espasa?",
+        "Què és el Nether?",
+        "Com trobo diamants?",
+        "Com es fa un portal al Nether?", "Com es crafteja un llit?",
+        "Com es fa un encenedor?"}
 
-def run():
+def existent(input):
+    if input in preestablertes:
+        return True
+    else:
+        return False
+
+def run(m):
     # Connect to the Minecraft game
-    mc = minecraft.Minecraft.create()
-
-    # Interact with the Minecraft world
-    mc.postToChat("Hello Minecraft World")
+    mc = m
     pos = mc.player.getTilePos()
     mc.setBlock(pos.x+3, pos.y, pos.z, block.STONE.id)
-
-    mc.postToChat("OracleBot està actiu! Pregunteu-me coses sobre Minecraft.")
 
     # Preguntes i respostes predefinides
     faq1 = {
