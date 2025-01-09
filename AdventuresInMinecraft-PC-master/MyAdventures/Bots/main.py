@@ -32,20 +32,21 @@ def llegirXat():
     while True:
         with sem:
             input = mc.events.pollChatPosts()
-        if (input.casefold() == "tnt"):
-            TNTBot.run(mc)
-        elif (OracleBot.existent(input)):
-            OracleBot.run(mc)
-        else:
-            InsultBot.run(mc)
+        for i in input:
+            if (input.casefold() == "tnt"):
+                TNTBot.run(mc)
+            elif (OracleBot.existent(i)):
+                OracleBot.run(mc)
+            else:
+                InsultBot.run(mc)
         
     
 def achiev():
-    achievBot = AchievObs.AchievementBot()
-    achievBot.__init__ (achievBot, mc)
+    achievBot = AchievObs.AchievementBot(mc)
+   # achievBot.__init__ (achievBot, mc)
     while True:
         with sem:
-            achievBot.run(mc)
+            achievBot.run()
 
 xat_thread = threading.Thread(target=llegirXat)
 achiev_thread = threading.Thread(target=achiev)
