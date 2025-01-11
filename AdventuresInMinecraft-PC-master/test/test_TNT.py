@@ -13,7 +13,7 @@ class TestTNTBot(unittest.TestCase):
         # Crear una instància simulada de Minecraft
         self.mc = MagicMock()
         self.mc.postToChat = MagicMock()
-        self.mc.player.getTilePos = MagicMock(return_value=MagicMock(x=0, y=0, z=0))
+        self.mc.player.getPos = MagicMock(return_value=MagicMock(x=0, y=0, z=0))
         self.mc.setBlock = MagicMock()
 
     def test_tnt_placement(self):

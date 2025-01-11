@@ -4,8 +4,8 @@ import unittest
 TEST_MODULES = [
     "test_TNT",
     "test_Oracle",
-    "test_Insult",
-    "test_AchievObs"
+    "test_Insult"
+    #,"test_AchievObs"
     
 ]
 

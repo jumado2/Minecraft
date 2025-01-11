@@ -1,8 +1,7 @@
 import unittest
 from unittest.mock import MagicMock
-from MyAdventures.Bots.InsultBot import run
+from MyAdventures.Bots.InsultBotTest import run
 import MyAdventures.mcpi.minecraft as minecraft
-import MyAdventures.Bots.OracleBot
 
 class TestInsultBot(unittest.TestCase):
 

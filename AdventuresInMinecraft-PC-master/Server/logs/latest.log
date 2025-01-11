@@ -131,3 +131,18 @@
 [17:58:41] [Netty Server IO #3/INFO]: <jan> oraclebot mode 2[m
 [17:58:43] [Netty Server IO #3/INFO]: <jan> Com es fa una taula de crafteig?[m
 [17:58:43] [Server thread/INFO]: OracleBot: De deb• no saps aix•? Nom‚s agafa 4 blocs de fusta processada i posa'ls en un quadrat 2x2. Ni que fos f¡sica qu…ntica![m
+[18:00:51] [Thread-25/INFO]: [RaspberryJuice] Connection reset
+[18:00:51] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59943.
+[18:03:25] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:60034.
+[18:03:25] [Thread-27/INFO]: [RaspberryJuice] Starting input thread
+[18:03:25] [Thread-28/INFO]: [RaspberryJuice] Starting output thread!
+[18:03:31] [Netty Server IO #3/INFO]: <jan> tnt[m
+[18:03:31] [Server thread/INFO]: Colúlocant TNT...[m
+[18:03:31] [Server thread/INFO]: BOOM![m
+[18:03:37] [Netty Server IO #3/INFO]: <jan> hola[m
+[18:03:37] [Server thread/INFO]: <InsultBot> Jugador del lol[m
+[18:03:43] [Netty Server IO #3/INFO]: <jan> Com es fa una taula de crafteig?[m
+[18:03:43] [Server thread/INFO]: OracleBot: Necessites 4 blocs de fusta processada. Colúloca'ls en un quadrat 2x2 al teu inventari.[m
+[18:03:44] [Server thread/INFO]: jan has made the advancement [Stone Age]
+[18:04:00] [Server thread/INFO]: jan lost connection: Disconnected
+[18:04:00] [Server thread/INFO]: jan left the game
