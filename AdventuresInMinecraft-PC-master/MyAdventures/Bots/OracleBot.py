@@ -8,7 +8,7 @@ import mcpi.minecraft as minecraft
 import mcpi.block as block
 import random
 
-mode = 0
+mode = 1
 preestablertes = {"Com es fa una taula de crafteig?", "Com domesticar un llop?",
         "Com es fabrica una espasa?",
         "Què és el Nether?",
@@ -22,11 +22,11 @@ def existent(input):
     else:
         return False
 
-def run(m):
+def run(m, input):
     # Connect to the Minecraft game
     mc = m
     pos = mc.player.getTilePos()
-    mc.setBlock(pos.x+3, pos.y, pos.z, block.STONE.id)
+    #mc.setBlock(pos.x+3, pos.y, pos.z, block.STONE.id)
 
     # Preguntes i respostes predefinides
     faq1 = {
@@ -51,21 +51,20 @@ def run(m):
         "Com es fa un encenedor?": "Encara no has trobat sílex? Només necessites un fragment de sílex i una barra de ferro. Col·loca'ls diagonalment, i ja pots cremar coses. Molt madur."
     }   
 
+    
     if mode == 1: faq = faq1
     elif mode == 2: faq = faq2
     else: mc.postToChat(f"OracleBot: no conec aquest mode de xat :(")
     # Bucle principal
-    while True:
+    #while True:
         # Recuperar missatges nous del xat
-        chat_messages = mc.events.pollChatPosts()
+        #chat_messages = mc.events.pollChatPosts()
 
-        for message in chat_messages:
-            preguntes = message.message  
+        #for message in chat_messages:
+        #    preguntes = message.message  
 
-            # Respondre si la pregunta està a la llista
-            if preguntes in faq:
-                response = faq[preguntes]  # Obtenir la resposta adient
-                mc.postToChat(f"OracleBot: {response}")
-            else:
-                mc.postToChat("OracleBot: No sé la resposta a aquesta pregunta")
-
+        # Respondre si la pregunta està a la llista
+        #if input in faq:
+    response = faq[input]  # Obtenir la resposta adient
+    mc.postToChat(f"OracleBot: {response}")
+        

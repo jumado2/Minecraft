@@ -24,17 +24,11 @@ class AchievementBot:
             # Reiniciar el recompte del bloc
             self.hit_count[block_type] = 0
 
-    def run(self):
+    def run(self, tipus):
         # Iniciar el bot i registrar l'observador.
         self.mc.postToChat("AchievementBot està actiu! Aconsegueix 100 blocs per un logro!")
 
         # Registrar l'observador
         # Això depèn del suport de l'API o de la capa d'esdeveniments.
-        self.mc.registerEventHandler("blockHit", self.on_block_hit)
-
-        # Mantenir el bot actiu (si cal)
-        try:
-            while True:
-                pass  # No cal fer res més, l'observer s'encarrega de tot
-        except KeyboardInterrupt:
-            print("AchievementBot s'ha aturat.")
+        #self.mc.registerEventHandler("blockHit", self.on_block_hit)
+        self.on_block_hit(tipus)

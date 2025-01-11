@@ -18,7 +18,7 @@ def run(m):
     mc.setBlock(pos.x + 2, pos.y, pos.z, block.TNT)
     mc.postToChat("Col·locant TNT...")
 
-    time.sleep(2)  
+    #time.sleep(2)  
 
     mc.setBlock(pos.x + 2, pos.y+1, pos.z, block.FIRE)
     mc.postToChat("BOOM!")
