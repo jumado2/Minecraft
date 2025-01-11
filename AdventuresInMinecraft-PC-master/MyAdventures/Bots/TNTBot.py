@@ -12,7 +12,8 @@ def run(m):
     # Connect to the Minecraft game
     mc = m
     # Obtenir la posició del jugador
-    pos = mc.player.getTilePos()
+    pos = mc.player.getPos()
+    
 
     # Col·locar un bloc de TNT davant del jugador
     mc.setBlock(pos.x + 2, pos.y, pos.z, block.TNT)

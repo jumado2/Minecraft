@@ -2,6 +2,7 @@ import unittest
 from unittest.mock import MagicMock
 from MyAdventures.Bots.InsultBot import run
 import MyAdventures.mcpi.minecraft as minecraft
+import MyAdventures.Bots.OracleBot
 
 class TestInsultBot(unittest.TestCase):
 

@@ -25,7 +25,7 @@ def existent(input):
 def run(m, input):
     # Connect to the Minecraft game
     mc = m
-    pos = mc.player.getTilePos()
+    #pos = mc.player.getTilePos()
     #mc.setBlock(pos.x+3, pos.y, pos.z, block.STONE.id)
 
     # Preguntes i respostes predefinides

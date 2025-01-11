@@ -5,11 +5,8 @@ hit_count = {}
 logro_threshold = 5  # Nombre de blocs necessaris per a logro
     
 # Classe per encapsular l'observador del bot
-def run(m, event):
+def run(m, block_type):
     mc = m
-    # Funció que es crida quan es col·loca un bloc.
-    pos = event.pos
-    block_type = event.block
 
     # Actualitzar el recompte del bloc
     if block_type not in hit_count:
@@ -18,7 +15,7 @@ def run(m, event):
 
     # Comprovar si s'ha arribat al minim
     if hit_count[block_type] == logro_threshold:
-        mc.postToChat(f"Felicitats! Has colpejat {logro_threshold} blocs del tipus {block_type}. 🎉")
+        mc.postToChat(f"Felicitats! Has colpejat {logro_threshold} blocs del tipus {block_type}.")
         # Reiniciar el recompte del bloc
         hit_count[block_type] = 0
 

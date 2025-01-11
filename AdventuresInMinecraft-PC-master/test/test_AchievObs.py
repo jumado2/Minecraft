@@ -12,8 +12,7 @@ class TestAchievementBot(unittest.TestCase):
 
     def test_block_hit_tracking(self):
         # Simular un esdeveniment de bloc colpejat
-        mock_event = MagicMock(pos=MagicMock(), block=block.STONE.id)
-        run(self.mc, mock_event)
+        run(self.mc, block.STONE.id)
 
         # Comprovar que s'ha actualitzat el recompte
         self.assertEqual(hit_count[block.STONE.id], 1)
@@ -22,12 +21,11 @@ class TestAchievementBot(unittest.TestCase):
         # Simular que s'arriba al llindar
         global hit_count
         hit_count[block.STONE.id] = logro_threshold - 1
-        mock_event = MagicMock(pos=MagicMock(), block=block.STONE.id)
-        run(self.mc, mock_event)
+        run(self.mc, block.STONE.id)
 
         # Comprovar que s'ha publicat el missatge de logro
         self.mc.postToChat.assert_called_with(
-            f"Felicitats! Has colpejat {logro_threshold} blocs del tipus {block.STONE.id}. 🎉"
+            f"Felicitats! Has colpejat {logro_threshold} blocs del tipus {block.STONE.id}."
         )
 
 if __name__ == "__main__":

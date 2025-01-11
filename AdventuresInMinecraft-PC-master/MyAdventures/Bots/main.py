@@ -44,9 +44,13 @@ def llegirXat():
 '''def achiev():
     while True:
         with sem:
-            input = mc.events.pollBlockHits()
-        for i in input:
-            AchievObs.run(mc, i.message)
+            blocs = mc.events.pollBlockHits()
+        if blocs:
+            for bloc in blocs:
+                with sem:
+                    x, y, z = bloc.pos
+                    bloc_type = mc.getBlock(x, y, z)
+                AchievObs.run(mc, bloc_type)
 '''
 xat_thread = threading.Thread(target=llegirXat)
 #achiev_thread = threading.Thread(target=achiev)
