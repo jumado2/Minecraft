@@ -1,57 +1,26 @@
 import unittest
-from unittest.mock import MagicMock, call
-import sys
-import os
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from MyAdventures.InsultBot import run
-import mcpi.block as block
-import unittest
-import mcpi.minecraft as minecraft
-import time
+from unittest.mock import MagicMock
+from MyAdventures.Bots.InsultBot import run
+import MyAdventures.mcpi.minecraft as minecraft
 
 class TestInsultBot(unittest.TestCase):
 
     def setUp(self):
-        # Mock Minecraft connection
+        # Crear una instància simulada de Minecraft
         self.mc = MagicMock()
-        
-        # Configurar un mètode simulat per `postToChat`
         self.mc.postToChat = MagicMock()
-        
-        # Mock per a `pollChatPosts`
-        self.mc.events.pollChatPosts = MagicMock()
 
-    def test_bot_responses(self):
-        # Simular missatges del xat
-        mock_messages = [
-            MagicMock(message="Hola InsultBot!"),
-            MagicMock(message="Un altre missatge"),
-        ]
-        self.mc.events.pollChatPosts.return_value = mock_messages
+    def test_insult_response(self):
+        # Simular un missatge d'entrada
+        test_message = "Hola InsultBot!"
 
-        # Executar el bot durant un període curt
-        start_time = time.time()
-        while time.time() - start_time < 2:  # 2 segons
-            run()
+        # Executar el bot amb el missatge simulat
+        run(self.mc, test_message)
 
-        # Comprovar que `postToChat` ha estat cridat almenys una vegada
+        # Comprovar que es va enviar un insult al xat
         self.mc.postToChat.assert_called()
-
-    def test_no_repeated_responses(self):
-        # Simular missatges repetits del xat
-        mock_messages = [
-            MagicMock(message="Hola InsultBot!"),
-            MagicMock(message="Hola InsultBot!"),
-        ]
-        self.mc.events.pollChatPosts.return_value = mock_messages
-
-        # Executar el bot durant un període curt
-        start_time = time.time()
-        while time.time() - start_time < 2:  # 2 segons
-            run()
-
-        # Assegurar que el bot només contesti una vegada al missatge repetit
-        self.mc.postToChat.assert_called_once_with("<InsultBot> Tontito")  # Exemple de resposta
+        insult_message = self.mc.postToChat.call_args[0][0]
+        self.assertTrue("<InsultBot>" in insult_message, "El bot no ha enviat un insult al xat.")
 
 if __name__ == "__main__":
     unittest.main()

@@ -4,36 +4,26 @@ import sys
 import os
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 import time
-import mcpi.block as block
-from MyAdventures.Bot.TNTBot.py import run  
+import MyAdventures.mcpi.block as block
+from MyAdventures.Bots.TNTBot import run as tnt_run
 
 class TestTNTBot(unittest.TestCase):
 
     def setUp(self):
-        # Connectar amb Minecraft
-        self.mc = minecraft.Minecraft.create()
-        self.start_pos = self.mc.player.getTilePos()
+        # Crear una instància simulada de Minecraft
+        self.mc = MagicMock()
+        self.mc.postToChat = MagicMock()
+        self.mc.player.getTilePos = MagicMock(return_value=MagicMock(x=0, y=0, z=0))
+        self.mc.setBlock = MagicMock()
 
     def test_tnt_placement(self):
-        # Executar el bot
-        run(self.mc)
+        # Executar TNTBot
+        tnt_run(self.mc)
 
-        # Verificar si el TNT s'ha col·locat correctament
-        tnt_pos = self.start_pos.clone()
-        tnt_pos.x += 2
-        tnt_block = self.mc.getBlock(tnt_pos.x, tnt_pos.y, tnt_pos.z)
-
-        self.assertEqual(tnt_block, block.TNT.id, "El bloc TNT no s'ha col·locat correctament.")
-
-    def test_fire_placement(self):
-        # Esperar uns segons perquè el foc es col·loqui
-        time.sleep(2)
-        fire_pos = self.start_pos.clone()
-        fire_pos.x += 2
-        fire_pos.y += 1
-        fire_block = self.mc.getBlock(fire_pos.x, fire_pos.y, fire_pos.z)
-
-        self.assertEqual(fire_block, block.FIRE.id, "El bloc de foc no s'ha col·locat correctament.")
+        # Comprovar que TNT i foc s'han col·locat correctament
+        self.mc.setBlock.assert_any_call(2, 0, 0, block.TNT)
+        self.mc.setBlock.assert_any_call(2, 1, 0, block.FIRE)
+        self.mc.postToChat.assert_called_with("BOOM!")
 
 if __name__ == "__main__":
     unittest.main()

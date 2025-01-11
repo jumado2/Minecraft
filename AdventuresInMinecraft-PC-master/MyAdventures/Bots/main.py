@@ -42,12 +42,11 @@ def llegirXat():
         
     
 '''def achiev():
-    achievBot = AchievObs.AchievementBot(mc)
     while True:
         with sem:
             input = mc.events.pollBlockHits()
         for i in input:
-            achievBot.run(i.message)
+            AchievObs.run(mc, i.message)
 '''
 xat_thread = threading.Thread(target=llegirXat)
 #achiev_thread = threading.Thread(target=achiev)

@@ -1,0 +1,14 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest": "2025-01-11 11:37:21 +0100",
+      "extreme_hills_with_trees": "2025-01-11 11:38:16 +0100",
+      "forest_hills": "2025-01-11 11:37:47 +0100",
+      "plains": "2025-01-11 11:35:49 +0100",
+      "taiga": "2025-01-11 11:37:35 +0100",
+      "extreme_hills": "2025-01-11 11:38:12 +0100",
+      "river": "2025-01-11 11:37:45 +0100"
+    },
+    "done": false
+  }
+}
