@@ -1,10 +1,15 @@
 import unittest
+import sys
+import os
+
+# Afegir el directori base del projecte al sys.path
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 # Llistat de fitxers de test
 TEST_MODULES = [
-    "test_TNT",
-    "test_Oracle",
-    "test_Insult"
+    "testsInd.test_TNT",
+    "testsInd.test_Oracle",
+    "testsInd.test_Insult"
     #,"test_AchievObs"
     
 ]
