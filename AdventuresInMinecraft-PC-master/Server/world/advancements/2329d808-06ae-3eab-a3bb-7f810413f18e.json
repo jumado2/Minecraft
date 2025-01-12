@@ -5,5 +5,11 @@
       "plains": "2024-12-03 17:56:28 +0100"
     },
     "done": false
+  },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_red_flower": "2025-01-12 10:26:07 +0100"
+    },
+    "done": true
   }
 }

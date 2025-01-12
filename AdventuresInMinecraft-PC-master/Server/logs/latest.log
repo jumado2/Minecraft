@@ -1,148 +1,48 @@
-[17:39:56] [Server thread/INFO]: Starting minecraft server version 1.12
-[17:39:56] [Server thread/INFO]: Loading properties
-[17:39:56] [Server thread/INFO]: Default game type: CREATIVE
-[17:39:56] [Server thread/INFO]: Generating keypair
-[17:39:56] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:39:56] [Server thread/INFO]: Using default channel type
-[17:39:57] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-ed8c725 (MC: 1.12) (Implementing API version 1.12-R0.1-SNAPSHOT)
-[17:39:57] [Server thread/INFO]: [RaspberryJuice] Loading RaspberryJuice v1.10
-[17:39:57] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:39:57] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[17:39:57] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17:39:57] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:39:57] [Server thread/INFO]: Preparing level "world"
-[17:39:57] [Server thread/INFO]: Preparing start region for level 0 (Seed: 3272691789889605005)
-[17:39:58] [Server thread/INFO]: Preparing start region for level 1 (Seed: 3272691789889605005)
-[17:39:59] [Server thread/INFO]: Preparing start region for level 2 (Seed: 3272691789889605005)
-[17:39:59] [Server thread/INFO]: [RaspberryJuice] Enabling RaspberryJuice v1.10
-[17:39:59] [Server thread/INFO]: [RaspberryJuice] Using port 4711
-[17:39:59] [Server thread/INFO]: [RaspberryJuice] Using ABSOLUTE locations
-[17:39:59] [Server thread/INFO]: [RaspberryJuice] Using BOTH clicks for hits
-[17:39:59] [Server thread/INFO]: [RaspberryJuice] ThreadListener Started
-[17:39:59] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[17:39:59] [Server thread/INFO]: Done (1,801s)! For help, type "help" or "?"
-[17:40:08] [Server thread/INFO]: jan[/127.0.0.1:59539] logged in with entity id 45 at ([world]-393.73923057074313, 66.0, 412.849584754504)
-[17:40:21] [Thread-7/INFO]: [RaspberryJuice] Starting input thread
-[17:40:21] [Thread-8/INFO]: [RaspberryJuice] Starting output thread!
-[17:40:21] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59546.
-[17:40:24] [Server thread/INFO]: Felicitats! Has colpejat 5 blocs del tipus 2.[m
-[17:40:28] [Netty Server IO #3/INFO]: <jan> hola[m
-[17:40:28] [Server thread/INFO]: <InsultBot> Burro[m
-[17:40:39] [Netty Server IO #3/INFO]: <jan> Com faig una taula de crafteig?[m
-[17:40:39] [Server thread/INFO]: <InsultBot> Empanat[m
-[17:40:47] [Netty Server IO #3/INFO]: <jan> Com es fa una taula de crafteig?[m
-[17:41:01] [Thread-7/INFO]: [RaspberryJuice] Connection reset
-[17:41:01] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59546.
-[17:41:06] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59569.
-[17:41:06] [Thread-10/INFO]: [RaspberryJuice] Starting output thread!
-[17:41:06] [Thread-9/INFO]: [RaspberryJuice] Starting input thread
-[17:41:18] [Netty Server IO #3/INFO]: <jan> Com es fa una taula de crafteig?[m
-[17:41:55] [Thread-9/INFO]: [RaspberryJuice] Connection reset
-[17:41:55] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59569.
-[17:42:20] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59596.
-[17:42:20] [Thread-12/INFO]: [RaspberryJuice] Starting output thread!
-[17:42:20] [Thread-11/INFO]: [RaspberryJuice] Starting input thread
-[17:42:24] [Server thread/INFO]: Felicitats! Has colpejat 5 blocs del tipus 2.[m
-[17:42:27] [Netty Server IO #3/INFO]: <jan> Com es fa una taula de crafteig?[m
-[17:42:27] [Server thread/INFO]: OracleBot: Necessites 4 blocs de fusta processada. Colúloca'ls en un quadrat 2x2 al teu inventari.[m
-[17:42:31] [Netty Server IO #3/INFO]: <jan> hola[m
-[17:42:31] [Server thread/INFO]: <InsultBot> Empanat[m
-[17:42:36] [Netty Server IO #3/INFO]: <jan> oraclebot mode 2[m
-[17:42:40] [Netty Server IO #3/INFO]: <jan> Com es fa una taula de crafteig?[m
-[17:42:40] [Server thread/INFO]: OracleBot: De deb• no saps aix•? Nom‚s agafa 4 blocs de fusta processada i posa'ls en un quadrat 2x2. Ni que fos f¡sica qu…ntica![m
-[17:43:08] [Server thread/INFO]: Felicitats! Has colpejat 5 blocs del tipus 2.[m
-[17:43:09] [Server thread/INFO]: Felicitats! Has colpejat 5 blocs del tipus 2.[m
-[17:43:10] [Server thread/INFO]: Felicitats! Has colpejat 5 blocs del tipus 2.[m
-[17:43:15] [Server thread/INFO]: Felicitats! Has colpejat 5 blocs del tipus 3.[m
-[17:43:19] [Server thread/INFO]: Felicitats! Has colpejat 5 blocs del tipus 3.[m
-[17:43:21] [Server thread/INFO]: Felicitats! Has colpejat 5 blocs del tipus 3.[m
-[17:43:27] [Server thread/INFO]: Felicitats! Has colpejat 5 blocs del tipus 17.[m
-[17:43:28] [Server thread/INFO]: Felicitats! Has colpejat 5 blocs del tipus 17.[m
-[17:43:30] [Server thread/INFO]: Felicitats! Has colpejat 5 blocs del tipus 2.[m
-[17:43:33] [Server thread/INFO]: Felicitats! Has colpejat 5 blocs del tipus 39.[m
-[17:43:53] [Server thread/INFO]: Felicitats! Has colpejat 5 blocs del tipus 16.[m
-[17:44:06] [Thread-11/INFO]: [RaspberryJuice] Connection reset
-[17:44:07] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59596.
-[17:44:46] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59669.
-[17:44:46] [Thread-13/INFO]: [RaspberryJuice] Starting input thread
-[17:44:46] [Thread-14/INFO]: [RaspberryJuice] Starting output thread!
-[17:44:50] [Server thread/INFO]: Felicitats! Has colpejat 5 blocs del tipus 1.[m
-[17:44:55] [Netty Server IO #3/INFO]: <jan> Com es fa una taula de crafteig?[m
-[17:44:55] [Server thread/INFO]: OracleBot: Necessites 4 blocs de fusta processada. Colúloca'ls en un quadrat 2x2 al teu inventari.[m
-[17:44:57] [Netty Server IO #3/INFO]: <jan> oraclebot mode 2[m
-[17:44:59] [Netty Server IO #3/INFO]: <jan> Com es fa una taula de crafteig?[m
-[17:44:59] [Server thread/INFO]: OracleBot: De deb• no saps aix•? Nom‚s agafa 4 blocs de fusta processada i posa'ls en un quadrat 2x2. Ni que fos f¡sica qu…ntica![m
-[17:45:00] [Netty Server IO #3/INFO]: <jan> gola[m
-[17:45:00] [Server thread/INFO]: <InsultBot> Empanat[m
-[17:45:03] [Netty Server IO #3/INFO]: <jan> tnt[m
-[17:47:40] [Thread-13/INFO]: [RaspberryJuice] Connection reset
-[17:47:40] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59669.
-[17:47:41] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59735.
-[17:47:41] [Thread-15/INFO]: [RaspberryJuice] Starting input thread
-[17:47:41] [Thread-16/INFO]: [RaspberryJuice] Starting output thread!
-[17:48:07] [Netty Server IO #3/INFO]: <jan> hola[m
-[17:48:08] [Server thread/INFO]: Felicitats! Has colpejat 5 blocs del tipus 1.[m
-[17:48:08] [Server thread/INFO]: Felicitats! Has colpejat 5 blocs del tipus 1.[m
-[17:48:09] [Server thread/INFO]: Felicitats! Has colpejat 5 blocs del tipus 1.[m
-[17:48:09] [Server thread/INFO]: Felicitats! Has colpejat 5 blocs del tipus 1.[m
-[17:48:10] [Server thread/INFO]: Felicitats! Has colpejat 5 blocs del tipus 1.[m
-[17:48:10] [Server thread/INFO]: Felicitats! Has colpejat 5 blocs del tipus 2.[m
-[17:48:11] [Server thread/INFO]: Felicitats! Has colpejat 5 blocs del tipus 1.[m
-[17:48:29] [Netty Server IO #3/INFO]: <jan> hola[m
-[17:49:01] [Thread-15/INFO]: [RaspberryJuice] Connection reset
-[17:49:01] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59735.
-[17:49:02] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59778.
-[17:49:02] [Thread-17/INFO]: [RaspberryJuice] Starting input thread
-[17:49:02] [Thread-18/INFO]: [RaspberryJuice] Starting output thread!
-[17:49:17] [Thread-17/INFO]: [RaspberryJuice] Connection reset
-[17:49:17] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59778.
-[17:49:18] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59788.
-[17:49:18] [Thread-20/INFO]: [RaspberryJuice] Starting output thread!
-[17:49:18] [Thread-19/INFO]: [RaspberryJuice] Starting input thread
-[17:52:09] [Thread-19/INFO]: [RaspberryJuice] Connection reset
-[17:52:09] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59788.
-[17:52:11] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59833.
-[17:52:11] [Thread-21/INFO]: [RaspberryJuice] Starting input thread
-[17:52:11] [Thread-22/INFO]: [RaspberryJuice] Starting output thread!
-[17:52:16] [Server thread/INFO]: Felicitats! Has colpejat 5 blocs del tipus 2.[m
-[17:52:20] [Netty Server IO #3/INFO]: <jan> hola[m
-[17:52:20] [Server thread/INFO]: <InsultBot> Avui no ‚s el teu dia, oi?[m
-[17:52:28] [Netty Server IO #3/INFO]: <jan> Com es fa una taula de crafteig?[m
-[17:52:28] [Server thread/INFO]: OracleBot: Necessites 4 blocs de fusta processada. Colúloca'ls en un quadrat 2x2 al teu inventari.[m
-[17:52:31] [Netty Server IO #3/INFO]: <jan> TNT[m
-[17:54:19] [Thread-21/INFO]: [RaspberryJuice] Connection reset
-[17:54:19] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59833.
-[17:54:21] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59874.
-[17:54:21] [Thread-23/INFO]: [RaspberryJuice] Starting input thread
-[17:54:21] [Thread-24/INFO]: [RaspberryJuice] Starting output thread!
-[17:54:27] [Netty Server IO #3/INFO]: <jan> tnt[m
-[17:58:16] [Thread-23/INFO]: [RaspberryJuice] Connection reset
-[17:58:16] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59874.
-[17:58:17] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59943.
-[17:58:17] [Thread-25/INFO]: [RaspberryJuice] Starting input thread
-[17:58:17] [Thread-26/INFO]: [RaspberryJuice] Starting output thread!
-[17:58:24] [Netty Server IO #3/INFO]: <jan> tnt[m
-[17:58:24] [Server thread/INFO]: Colúlocant TNT...[m
-[17:58:24] [Server thread/INFO]: BOOM![m
-[17:58:30] [Netty Server IO #3/INFO]: <jan> Com es fa una taula de crafteig?[m
-[17:58:30] [Server thread/INFO]: OracleBot: Necessites 4 blocs de fusta processada. Colúloca'ls en un quadrat 2x2 al teu inventari.[m
-[17:58:35] [Netty Server IO #3/INFO]: <jan> hola[m
-[17:58:35] [Server thread/INFO]: <InsultBot> Empanat[m
-[17:58:41] [Netty Server IO #3/INFO]: <jan> oraclebot mode 2[m
-[17:58:43] [Netty Server IO #3/INFO]: <jan> Com es fa una taula de crafteig?[m
-[17:58:43] [Server thread/INFO]: OracleBot: De deb• no saps aix•? Nom‚s agafa 4 blocs de fusta processada i posa'ls en un quadrat 2x2. Ni que fos f¡sica qu…ntica![m
-[18:00:51] [Thread-25/INFO]: [RaspberryJuice] Connection reset
-[18:00:51] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59943.
-[18:03:25] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:60034.
-[18:03:25] [Thread-27/INFO]: [RaspberryJuice] Starting input thread
-[18:03:25] [Thread-28/INFO]: [RaspberryJuice] Starting output thread!
-[18:03:31] [Netty Server IO #3/INFO]: <jan> tnt[m
-[18:03:31] [Server thread/INFO]: Colúlocant TNT...[m
-[18:03:31] [Server thread/INFO]: BOOM![m
-[18:03:37] [Netty Server IO #3/INFO]: <jan> hola[m
-[18:03:37] [Server thread/INFO]: <InsultBot> Jugador del lol[m
-[18:03:43] [Netty Server IO #3/INFO]: <jan> Com es fa una taula de crafteig?[m
-[18:03:43] [Server thread/INFO]: OracleBot: Necessites 4 blocs de fusta processada. Colúloca'ls en un quadrat 2x2 al teu inventari.[m
-[18:03:44] [Server thread/INFO]: jan has made the advancement [Stone Age]
-[18:04:00] [Server thread/INFO]: jan lost connection: Disconnected
-[18:04:00] [Server thread/INFO]: jan left the game
+[10:24:08] [Server thread/INFO]: Loading properties
+[10:24:08] [Server thread/INFO]: Default game type: CREATIVE
+[10:24:08] [Server thread/INFO]: Generating keypair
+[10:24:08] [Server thread/INFO]: Starting Minecraft server on *:25565
+[10:24:08] [Server thread/INFO]: Using default channel type
+[10:24:08] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-ed8c725 (MC: 1.12) (Implementing API version 1.12-R0.1-SNAPSHOT)
+[10:24:09] [Server thread/INFO]: [RaspberryJuice] Loading RaspberryJuice v1.10
+[10:24:09] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[10:24:09] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[10:24:09] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[10:24:09] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[10:24:09] [Server thread/INFO]: Preparing level "world"
+[10:24:09] [Server thread/INFO]: Preparing start region for level 0 (Seed: 3272691789889605005)
+[10:24:10] [Server thread/INFO]: Preparing start region for level 1 (Seed: 3272691789889605005)
+[10:24:10] [Server thread/INFO]: Preparing start region for level 2 (Seed: 3272691789889605005)
+[10:24:10] [Server thread/INFO]: [RaspberryJuice] Enabling RaspberryJuice v1.10
+[10:24:10] [Server thread/INFO]: [RaspberryJuice] Using port 4711
+[10:24:10] [Server thread/INFO]: [RaspberryJuice] Using ABSOLUTE locations
+[10:24:10] [Server thread/INFO]: [RaspberryJuice] Using BOTH clicks for hits
+[10:24:10] [Server thread/INFO]: [RaspberryJuice] ThreadListener Started
+[10:24:10] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[10:24:10] [Server thread/INFO]: Done (1,562s)! For help, type "help" or "?"
+[10:24:17] [Server thread/INFO]: Judith[/127.0.0.1:58886] logged in with entity id 45 at ([world]359.0918506967985, 84.15019399844988, 246.54332994296067)
+[10:24:34] [Thread-7/INFO]: [RaspberryJuice] Starting input thread
+[10:24:34] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:58900.
+[10:24:34] [Thread-8/INFO]: [RaspberryJuice] Starting output thread!
+[10:24:42] [Netty Server IO #1/INFO]: <Judith> tnt[m
+[10:24:42] [Server thread/INFO]: Colúlocant TNT...[m
+[10:24:42] [Server thread/INFO]: BOOM![m
+[10:25:39] [Netty Server IO #1/INFO]: <Judith> tnt[m
+[10:25:39] [Server thread/INFO]: Colúlocant TNT...[m
+[10:25:39] [Server thread/INFO]: BOOM![m
+[10:25:59] [Netty Server IO #1/INFO]: <Judith> tnt[m
+[10:25:59] [Server thread/INFO]: Colúlocant TNT...[m
+[10:25:59] [Server thread/INFO]: BOOM![m
+[10:26:45] [Netty Server IO #1/INFO]: <Judith> tnt[m
+[10:26:45] [Server thread/INFO]: Colúlocant TNT...[m
+[10:26:45] [Server thread/INFO]: BOOM![m
+[10:28:33] [Netty Server IO #1/INFO]: <Judith> jidew[m
+[10:28:33] [Server thread/INFO]: <InsultBot> Tontito[m
+[10:30:29] [Netty Server IO #1/INFO]: <Judith> hola[m
+[10:30:29] [Server thread/INFO]: <InsultBot> Burro[m
+[10:30:36] [Netty Server IO #1/INFO]: <Judith> com estas?[m
+[10:30:36] [Server thread/INFO]: <InsultBot> Jugador del lol[m
+[10:30:43] [Netty Server IO #1/INFO]: <Judith> tu[m
+[10:30:43] [Server thread/INFO]: <InsultBot> Avui no ‚s el teu dia, oi?[m
+[10:43:37] [Thread-7/INFO]: [RaspberryJuice] Connection reset
+[10:43:38] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:58900.
